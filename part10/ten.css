@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+.allcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+    padding: 0px;
+    width: 200vh;
+    
+  }
+  .circle{
+      color: #73C829;
+      font-size: 22px;
+      padding: 5px;
+  }
+  .flexspan{
+      display: flex;
+      flex-direction: column;
+      padding:10px;
+      text-align:justify;
+
+  }
+  span{
+    font-size: 15px;
+    color: #818181;
+    line-height: 35px;
+font-family: Arial;
+
+padding-left: 10px;
+  }
+  .titlelist{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color:#414141 ;
+    font-weight: 600;
+    font-family:Arial;
+    text-align: left;
+  }
+  .item {
+    width: 42%;
+    min-width: 320px;
+    margin-bottom: 2%;
+    position: relative;
+  }
+  .mon{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#7C7C7C ;
+    font-weight: 600;
+    font-family:Arial;
+    text-align: left;
+    
+}
+.projection{
+    font-weight: 750;
+    font-size: 41px;
+    font-family: 'Open Sans';
+    color: #4B4B4B;
+    width: 100%;
+    text-align: left;
+}
+.buttonflex{
+    position: relative;
+  padding-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .whitelist{
+    position: relative;
+    padding: 1.2em 1.8em;
+    outline: none;
+    background: #FABA45;
+    color: white;
+    width: 200px;
+    height: 70px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: 'Open Sans', Extrablod;
+    overflow: hidden;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    
+   }
+   .whitelist:hover {
+    color: black;
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 24px 10px #E9EBEC; 
+  box-shadow: 1px 2px 8px 8px #E9EBEC;
+  border: none;
+  text-align: center;
+  transition: 0.5s;
+  font-family: 'Open Sans', sans-serif;
+   }
+  
+  .download{
+    text-align: center;
+   padding: 20px;
+   color: #646464;
+   padding-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  @media only screen and (max-width: 992px){
+    .allcontainer {
+       display: flex;
+       flex-direction: column;
+      
+    }
+    .container{
+        width: 100%;
+    }
+    .projection{
+        text-align: left;
+        padding-bottom: 30px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+   
+  }

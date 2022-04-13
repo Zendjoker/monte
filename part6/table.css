@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+.top{
+    text-align: center;
+}
+.topParagraphe {
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color:#7C7C7C ;
+font-weight: 500;
+font-family:Arial;
+color: rgb(0, 0, 0);
+padding-top: 30px;
+
+}
+h2{
+    text-align: center;
+    font-size: 51px;
+    height: 120px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-family: 'Open Sans', Extrabold;
+    color: #4B4B4B;
+    
+}
+
+.div-table {
+    display: table;
+    margin-left: 15vh;
+    max-width: 100%;
+    text-align: center;
+    border-spacing: 0%; 
+  }
+  .div-table-row {
+      
+    display: table-row;
+font-family: Arial;
+font-size: 15px;
+color: #818181;
+text-align: left;
+    
+  }
+  .div-table-col {
+      text-align: left;
+    float: left; 
+    display: table-column;
+    width: 300px;
+    height: 35px;
+    line-height: 25px;
+  padding:25px
+  }
+  .t
+  {
+    padding-top: 30px;
+    font-family: 'Open Sans', Extrabold;
+  background: #FCBB7A;
+  text-align: center;
+  color: white;
+  padding:10px auto ;
+  font-size: 18px;
+  
+    text-align: left;
+  }
+  .d{
+      
+    padding-top:30px;
+    font-family: 'Open Sans', Extrabold;
+  background: #F8931F;
+  color: white;
+  font-size: 18px;
+  padding:10px auto ;
+    text-align: left;
+    
+  }
+  .q{
+    padding-top: 30px;
+    padding:10px auto ;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Open Sans', Extrabold;
+  background-color: #66B224;
+  color: white;
+  }
+  
+  @media only screen and (max-width: 992px){
+  .form1 {
+      
+    min-width: 1200px;
+    overflow-x: scroll;
+    padding: 0;
+    margin: 0;
+  }
+  h2{
+    text-align: center;
+    font-size: 31px;
+    height: 100%;
+    letter-spacing: 1px;
+    font-weight: 1100;
+    font-family: 'Open Sans', Extrabold;
+    color: #4B4B4B;
+  }
+  .div-table-row-w{
+      text-align: center;
+  }
+  .div-table {
+    display: table;
+    margin-left: 0%;
+    max-width: 720px;
+    text-align: center;
+  }
+  .div-table-col {
+   
+     
+    display: table-column;
+    width: 220px;
+    height: 50px;
+    line-height: 55px;
+  padding:10px
+  }
+  .a{
+font-size: 12px;
+  }
+  .b{
+    font-size: 12px;
+  }
+  .c{
+    font-size: 12px;
+  }
+}

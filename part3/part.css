@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+.monetapro{
+    text-align: center;
+    font-size: 51px;
+    font-family: 'Open Sans', Extrabold;
+    color: #4B4B4B;
+    font-weight: 800;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  margin-left: 0px;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+color:black;
+}
+
+.wrap { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+.wrap div {
+  color:black;
+}
+h4{
+  font-size:18px;
+  text-align: start;
+  color:#414141;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  }
+  p{
+    text-align: start;
+    line-height: 30px;
+  font-size:17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: #5c5c5c;
+  text-align: left;
+  text-align-last: left;
+  }
+  img:hover{
+  color:green;
+  }
+
+.all{
+  padding: 0 5%;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 28%;
+  height: 250px;
+  margin: 20px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  min-width: 320px;
+}
+img{
+width:59.77px;
+height:55.08px;
+align-items: flex-start;
+float:inline-start;
+
+}
+
+.buttonflex{
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+.whitelist{
+  position: relative;
+  padding: 1.2em 1.8em;
+  outline: none;
+  background: #FABA45;
+  color: white;
+  width: 200px;
+  height: 70px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  
+ }
+
+ 
+ .whitelist:hover {
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: 1px 2px 24px 10px #E9EBEC; 
+box-shadow: 1px 2px 8px 8px #E9EBEC;
+border: none;
+text-align: center;
+transition: 0.5s;
+font-family: 'Open Sans', sans-serif;
+ }
+
+.download{
+  text-align: center;
+ padding: 20px;
+ padding-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+}

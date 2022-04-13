@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+.mon{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#7C7C7C ;
+    font-weight: 600;
+    font-family:Arial;
+    text-align: center;
+    
+}
+.projection{
+    font-weight: 750;
+    font-size: 41px;
+    font-family: 'Open Sans';
+    color: #4B4B4B;
+    width: 100%;
+    text-align: center;
+}
+.flexstats{
+    display: flex;
+ 
+}
+.cap{
+    
+    text-align: left;
+    line-height: 40px;
+    padding-left:20% ;
+}
+.gok{
+    width: 500px;
+    height: 350px;
+}
+.graph{
+    
+    padding-left:20% 
+}
+li{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: #414141;
+}
+span{
+    font-size: 18pxpx;
+    color: #818181;
+font-family: Arial;
+padding-left: 20px;
+}
+ul li::before {
+    content: "\2022";
+    color: rgb(38, 194, 38);
+    font-weight: bold;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -1em;
+  }
+  @media only screen and (max-width: 992px){
+    .mon{
+    font-size: 15px;
+    }
+    .projection{
+        font-size: 51px;
+    }
+    .flexstats{
+        display: flex;
+        flex-direction: column;
+    }
+    .li{
+        font-size: 10px;
+    }
+    .ul{
+        font-size: 10px
+    }
+    ul li::before {
+       
+        width: 0.8em;
+        margin-left: -1em;
+      }
+    .gok{
+        
+        width: 480px;
+    height: 350px;
+    }
+   
+  }

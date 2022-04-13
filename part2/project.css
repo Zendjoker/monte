@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+*{
+    text-align: center;
+padding-top: 10px ;
+font-family: 'Open Sans', Extrabold;
+   
+}
+
+span{
+    font-size: 17px;
+    color: #7C7C7C;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+   
+}
+h1{
+    color: #4B4B4B;
+    font-size: 50px;
+    font-family: 'Open Sans', Extrabold;
+    font-weight: 900;
+  
+}
+.paraunder{
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #818181b0;
+    text-align: center;
+  word-spacing: 2px;
+  font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 30px;
+}
+.para{
+    word-spacing: 3px;
+    font-size: 20px;
+    color: #414141;
+    text-align: center;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    
+}
+.buttonflex{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 65vh;
+    justify-content: space-between;
+}
+.whitelist{
+    position: relative;
+    padding: 1.8em 3em;
+    background: #FABA45;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    border: none;
+    border-radius: 22px;
+     font-weight:bold;
+    cursor: pointer;
+   
+    font-weight: bold;
+   }
+  .h1{
+    font-family: 'Open Sans', Extrabold;
+    font-size: 58px;
+     font-weight:bold;
+  }
+.download{
+    text-align: center;
+    font-family: 'Open Sans', Extrabold;
+    margin-top: 10px;
+    margin-right: 55%;
+    color: #4B4B4B;
+    font-weight:bold;
+}

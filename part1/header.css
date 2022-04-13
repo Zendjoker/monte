@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+.mon{
+    margin: 80px auto 0px ;
+    display: block;
+
+}
+.helo{
+    height: 300px;
+}
+body {
+    color: #E9EBEC;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: transparent url('./5.jpg') ;
+    background-position: center;
+}
+.header{
+    margin-top: 5%;
+}
+.title {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 3rem;
+    word-spacing: 10px;
+text-align: center;
+letter-spacing: 7px;
+}
+.titlee{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 6px;
+}
+.inter{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    opacity: 1;
+   margin: 0;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 0;
+    margin: 1rem 2rem;
+    background:none;
+}
+
+.countdown-el {
+    text-align: center;
+    background:none;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+.inter{
+    text-align: center;
+}
+.whitelist{
+    display: flex;
+    justify-content: space-between;
+    margin-right:200px;
+    background:none;
+}
+.cix-slider-links {
+    text-decoration: none;
+    color: white !important;
+    height: 45px;
+    padding: 0 30px;
+    display: flex;
+    background:none;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'display-bold';
+    border-radius: 13px;
+    background:none;
+    max-width: 240px;
+    cursor: pointer;
+    border: none;
+    margin-top: 60px;
+    
+}
+
+.cix-slider-link:hover {
+    color: black;
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 24px 10px #E9EBEC; 
+box-shadow: 1px 2px 24px 10px #E9EBEC;
+}
+
+.buttonflex{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 70px;
+}
+.whitelist{
+    position: relative;
+    padding: 1.2em 1.8em;
+    outline: none;
+    border: 1px solid #303030;
+    background: #FFA412;
+    color: white;
+    
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+   }
+ 
+   
+   .whitelist:hover {
+    color: black;
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 24px 10px #E9EBEC; 
+box-shadow: 1px 2px 8px 8px #E9EBEC;
+border: none;
+transition: 0.5s;
+   }
+  
+.download{
+    text-align: center;
+    margin-top: 15px;
+}
+.down{
+    background-color: #FFA412;
+    border-radius: 50%;
+    padding: 5px 12px;
+    text-align: center;
+    border: 10px solid #ffffff;
+    margin-left: 50%;
+    position: absolute;
+    right: 47%;
+    top: 96%;
+}
+a , down{
+    text-decoration: none;
+    color: white;
+}
+
+.custom-shape-divider-bottom-1647938079 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1647938079 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 126px;
+}
+
+.custom-shape-divider-bottom-1647938079 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px){
+.whitelist {
+    padding: 1em 3em;
+    letter-spacing:0px;
+    font-size: 15px;
+}
+}
